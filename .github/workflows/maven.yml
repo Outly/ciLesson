@@ -23,7 +23,7 @@ jobs:
         run: mvn clean test
         continue-on-error: true
       - name: "Генерация allure report"
-        uses: simple-elf/allure-report-action@master
+        uses: simple-elf/allure-report-action@main
         id: allure-report
         with:
           allure_results: target/allure-results
