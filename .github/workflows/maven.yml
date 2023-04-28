@@ -22,18 +22,8 @@ jobs:
       - name: "Запуск тестов"
         run: mvn clean test
         continue-on-error: true
-
-      - name: Get Allure history
-        uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
-
       - name: "Генерация allure report"
         uses: simple-elf/allure-report-action@master
-        if: always()
         id: allure-report
         with:
           allure_results: target/allure-results
@@ -42,8 +32,10 @@ jobs:
           allure_history: target/allure-history
 
       - name: "Создание ветки gh-pages содержащей allure report"
-        if: always()
-        uses: peaceiris/actions-gh-pages@v2
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./target/deploy
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
