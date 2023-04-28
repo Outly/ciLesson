@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="repres.TestReqres" time="19.828" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\Programming\restAssured\target\test-classes;D:\Programming\restAssured\target\classes;C:\Users\andro\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\andro\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\andro\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\andro\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\andro\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\andro\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\andro\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\andro\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\andro\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\andro\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\andro\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\andro\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\andro\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\andro\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\andro\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\andro\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\andro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\andro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\andro\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\andro\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\andro\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\andro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\andro\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\andro\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\andro\.m2\repository\com\fasterxml\jackson\module\jackson-module-scala_2.13\2.13.1\jackson-module-scala_2.13-2.13.1.jar;C:\Users\andro\.m2\repository\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar;C:\Users\andro\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar;C:\Users\andro\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar;C:\Users\andro\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar;C:\Users\andro\.m2\repository\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-junit5\2.21.0\allure-junit5-2.21.0.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\andro\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\andro\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\andro\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Omsk"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\andro\AppData\Local\Temp\surefire14541167638359828730\surefirebooter-20230421194914169_3.jar C:\Users\andro\AppData\Local\Temp\surefire14541167638359828730 2023-04-21T19-49-13_072-jvmRun1 surefire-20230421194914169_1tmp surefire_0-20230421194914169_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Programming\restAssured\target\test-classes;D:\Programming\restAssured\target\classes;C:\Users\andro\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\andro\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\andro\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\andro\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\andro\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\andro\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\andro\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\andro\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\andro\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\andro\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\andro\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\andro\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\andro\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\andro\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\andro\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\andro\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\andro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\andro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\andro\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\andro\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\andro\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\andro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\andro\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\andro\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\andro\.m2\repository\com\fasterxml\jackson\module\jackson-module-scala_2.13\2.13.1\jackson-module-scala_2.13-2.13.1.jar;C:\Users\andro\.m2\repository\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar;C:\Users\andro\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar;C:\Users\andro\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar;C:\Users\andro\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar;C:\Users\andro\.m2\repository\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-junit5\2.21.0\allure-junit5-2.21.0.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\andro\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\andro\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\andro\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\andro\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\andro"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Programming\restAssured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\andro\AppData\Local\Temp\surefire14541167638359828730\surefirebooter-20230421194914169_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="User"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="allure.result.directory" value="target/allure-results"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\andro\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\andro\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="D:\Programming\restAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin;C:\Users\andro\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\andro\AppData\Local\Programs\Python\Python39\;C:\Users\andro\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;;D:\Program Files\JetBrains\DataGrip 2021.3.4\bin;;D:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\bin;;."/>
+    <property name="junit.jupiter.extensions.autodetection.enabled" value="true"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="successCreateUser" classname="repres.TestReqres" time="15.295">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Dolzhenko A",
+    "job": "QA engineer"
+}
+HTTP/1.1 201 Created
+Date: Fri, 21 Apr 2023 13:49:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 92
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"5c-vKfkMFoe/FTIakd1qEfqqXUd/Sw"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jkhicKfYSwHPEvUblPt4FrcMtQmmuYN2NeOJzzWCaLYmzrwZimdQp7ZjVKFA8km9CJCrywhgWcCVoPfvWD%2BKR7m4ucnEz7DraH1l6y917ygCRqRMjCWbwtEsFA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7bb6174edc9776ad-DME
+
+{
+    "name": "Dolzhenko A",
+    "job": "QA engineer",
+    "id": "223",
+    "createdAt": "2023-04-21T13:49:33.995Z"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="successCreateUser2(String, String)[1]" classname="repres.TestReqres" time="0.632">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Maxim",
+    "job": "doctor"
+}
+HTTP/1.1 201 Created
+Date: Fri, 21 Apr 2023 13:49:37 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 81
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"51-9v6tRJ/F7Am7LpnWfd4hzBi06iQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HtxAGzwD86TOO8JkwFL3dIokeetAEML83bETcx2sz3aKFoao%2FtJrNDGJVz3giwOaOKlOWnxJDJRxw79BO3xPI%2Fv3MPUD9fpcc1uSoYHzSQ%2FbtucTgxQOOi4wnA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7bb617678d269d86-DME
+
+{
+    "name": "Maxim",
+    "job": "doctor",
+    "id": "715",
+    "createdAt": "2023-04-21T13:49:37.933Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="successCreateUser2(String, String)[2]" classname="repres.TestReqres" time="0.598">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Anton",
+    "job": "teacher"
+}
+HTTP/1.1 201 Created
+Date: Fri, 21 Apr 2023 13:49:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"52-vP3W2s9gSeoQYK5ht3S5+wVQxvI"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bJtOoukZw0NDXZhmpZlMnLLf6lX36nhhV4z%2FcJX5Szb0JzRtLNoA24Q8llpYWBU0N%2FBzmshAQTsCZHzjkBecrwFevJ1SB%2B4ydaDU40DqTw1yitLDl02mqYTGvA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7bb6176b0af93a71-DME
+
+{
+    "name": "Anton",
+    "job": "teacher",
+    "id": "884",
+    "createdAt": "2023-04-21T13:49:38.524Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="successCreateUser2(String, String)[3]" classname="repres.TestReqres" time="0.491">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Gleb",
+    "job": "qa engineer"
+}
+HTTP/1.1 201 Created
+Date: Fri, 21 Apr 2023 13:49:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 85
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"55-sLk/RVoARwuIqknRcMoNartab0s"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FbpCwJpZv5%2BBV92RvzCG2vBS3nFnySBvKc7df9abwExQXQ5hzT15H8X0XqHjB8SXnmlWH3ZOpVKN96ZASODak1pS%2By5bkhRQsFIG9a2NXdJRStAidzpVjYi%2Bbg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7bb6176ec8b99d8d-DME
+
+{
+    "name": "Gleb",
+    "job": "qa engineer",
+    "id": "153",
+    "createdAt": "2023-04-21T13:49:39.095Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="successCreateUser2(String, String)[4]" classname="repres.TestReqres" time="0.466">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Anna",
+    "job": "doctor"
+}
+HTTP/1.1 201 Created
+Date: Fri, 21 Apr 2023 13:49:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-AsnWXoc2lq+9wtBasuOh2Oj2R7I"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=T5yOR1Z5FAT0wbobZtwNoI43hznzOpz06gY4xP8vJl4rilrpmS7xUr1tv2ntW9HydUFFEEnttJAHEGRA6nW%2FMci8ha80X%2FeMpQldAUTqxegX%2BY9itAs53TdMcA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7bb61771cafe7597-DME
+
+{
+    "name": "Anna",
+    "job": "doctor",
+    "id": "316",
+    "createdAt": "2023-04-21T13:49:39.593Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="successCheckEMail2" classname="repres.TestReqres" time="0.845">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 21 Apr 2023 13:49:40 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 3432
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1UtT6yL0vXKi8B2HtaTnerES1j9tQDP2Ulm6YLxli686Ve6c9KCayuTMY6N4om9LbTUXQhlNdJSBo9KJlcd4RCEg4H98Y1WLeB8%2BAfvPN3CvGm074L0%2BBO1YtQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7bb617759bc19d9c-DME
+Content-Encoding: gzip
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="successCheckEMail3(String)[1]" classname="repres.TestReqres" time="0.375">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users?page=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 21 Apr 2023 13:49:40 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 1556
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gDW6uWxZuAatjjtj5CYIm5y0boP2A3Bf4I8fWvvfTLxOdgfSkvQAFcUi7Xrzikv4jaGXHYzJQOBwfXxOvIx%2FERtNVqs%2BG6NMEvHAUJMXqKVT4GjO2zcJsj3sDA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7bb6177a49814991-DME
+Content-Encoding: gzip
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="successCheckEMail3(String)[2]" classname="repres.TestReqres" time="0.42">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 21 Apr 2023 13:49:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 3433
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=O%2FEJCPnPeRHxoFmDACRpRKCsPM%2FYAI7dUunsrzO7obeY%2FqizeijhfL0AWOsiIcwSL8AR2B1oPuOIx94xZHNCGp3kLfQ7k%2BJwQh0ip2vei5UNmSUS%2B74fdl7utw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7bb6177cea7d75a7-DME
+Content-Encoding: gzip
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+</testsuite>
