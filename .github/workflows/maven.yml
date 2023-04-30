@@ -9,14 +9,6 @@ jobs:
 
     steps:
 
-      - name: "Скачивание selenoid"
-        run: curl -s https://aerokube.com/cm/bash  | bash
-      - name: "Расширение прав на запуск selenoid"
-        run: chmod +x ./cm
-      - name: "Запуск selenoid"
-        run: ./cm selenoid start --vnc
-      - name: "Запуск selenoid-ui"
-        run: ./cm selenoid-ui start
       - name: "Использование main репозитория"
         uses: actions/checkout@v3
       - name: "Запуск тестов"
