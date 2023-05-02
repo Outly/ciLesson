@@ -9,7 +9,7 @@ jobs:
 
     steps:
 
-      - name: "Использование main репозитория"
+      - name: "Использование ветки main репозитория"
         uses: actions/checkout@v3
       - name: "Запуск тестов"
         run: mvn clean test
