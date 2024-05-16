@@ -29,7 +29,7 @@ public class TestReqres {
 
     private final ReqresSteps reqresSteps = new ReqresSteps();
 
-//    @Test //
+//    @Test
 //    public void successCheckAvatar() {
 //        List<User> users = given()
 //                .when()
