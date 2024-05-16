@@ -56,7 +56,7 @@ public class TestReqres {
 //    }
 
     @Test
-    @Description("Проеряем, что на странице 2 почта пользотелей оканчивается на @reqres.in")
+    @Description("Проеряем, что на странице 2 почта пользователей оканчивается на @reqres.in")
     @DisplayName("Проверка доменного имени почты")
     @Severity(SeverityLevel.NORMAL)
     public void successCheckEMail2() {
